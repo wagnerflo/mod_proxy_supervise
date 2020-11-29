@@ -1,0 +1,6 @@
+.libs/
+mod_proxy_spawn.la
+mod_proxy_spawn.lo
+mod_proxy_spawn.o
+mod_proxy_spawn.slo
+tests/httpd.pid

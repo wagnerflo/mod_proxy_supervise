@@ -1,6 +1,6 @@
-.libs/
-mod_proxy_spawn.la
-mod_proxy_spawn.lo
-mod_proxy_spawn.o
-mod_proxy_spawn.slo
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
 tests/httpd.pid
+Makefile
+mod_proxy_supervise.so

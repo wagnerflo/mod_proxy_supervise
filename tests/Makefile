@@ -1,3 +1,4 @@
 run:
 	rm -f httpd.pid
-	httpd -X -f httpd.conf -c "DocumentRoot $(CURDIR)"
+	LD_LIBRARY_PATH=../../libs7e \
+	    httpd -DFOREGROUND -f httpd.conf -c "DocumentRoot $(CURDIR)"
